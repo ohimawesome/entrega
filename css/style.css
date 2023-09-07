@@ -1,0 +1,68 @@
+header {
+    text-align: center;
+}
+
+.colornav {
+    color: rgb(173, 28, 28);
+}
+
+.sawh1 {
+    color: rgb(173, 28, 28);
+    text-align: center;
+    font-size: 40px;
+}
+
+.boxFooter {
+    font-size: 12px;
+    border-top: 1px red solid;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.logos {
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+
+
+.sawJohn {
+    color: rgb(173, 28, 28);
+    text-align: center;
+    font-size: 40px;
+}
+
+.sawAmanda {
+    color: rgb(173, 28, 28);
+    text-align: center;
+    font-size: 40px;
+}
+
+.sawGordon {
+    color: rgb(173, 28, 28);
+    text-align: center;
+    font-size: 40px;
+}
+
+.sawHoffman {
+    color: rgb(173, 28, 28);
+    text-align: center;
+    font-size: 40px;
+} 
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 156, 156);
+}
