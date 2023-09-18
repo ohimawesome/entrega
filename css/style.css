@@ -1,73 +1,78 @@
-header {
-    text-align: center;
+@font-face {
+  font-family: "another";
+  src: url("../fuentes/another.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
-
-.colornav {
-    color: rgb(173, 28, 28);
-}
-
-.sawh1 {
-    color: rgb(173, 28, 28);
-    text-align: center;
-    font-size: 40px;
-}
-
-.boxFooter {
-    font-size: 12px;
-    border-top: 1px red solid;
-    margin: 0 20px;
-    text-align: center;
-}
-
-.logos {
-    display: block;
-    margin: auto;
-    height: 200px;
-}
-
-
-.sawJohn {
-    color: rgb(173, 28, 28);
-    text-align: center;
-    font-size: 40px;
-}
-
-.sawAmanda {
-    color: rgb(173, 28, 28);
-    text-align: center;
-    font-size: 40px;
-}
-
-.sawGordon {
-    color: rgb(173, 28, 28);
-    text-align: center;
-    font-size: 40px;
-}
-
-.sawHoffman {
-    color: rgb(173, 28, 28);
-    text-align: center;
-    font-size: 40px;
-} 
-
-.merchandising {
-    color: rgb(173, 28, 28);
-    text-align: center;
-    font-size: 40px;
-}
-
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 10px;
-}
-
-ul {
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(193, 156, 156);
-    font-family: 'Reboto', sans-serif;
+  background-color: rgb(193, 156, 156);
+  font-family: "Reboto", sans-serif;
 }
+
+body > header > a {
+  cursor: auto;
+}
+
+header {
+  text-align: center;
+}
+header .colornav {
+  color: rgb(173, 28, 28);
+}
+header .colornav:hover {
+  color: rgb(173, 28, 28);
+}
+
+.boxFooter {
+  font-size: 12px;
+  border-top: 1px red solid;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.sawAmanda {
+  color: rgb(173, 28, 28);
+  text-align: center;
+  font-size: 40px;
+  font-family: "another", sans-serif;
+}
+
+.sawGordon {
+  color: rgb(173, 28, 28);
+  text-align: center;
+  font-size: 40px;
+  font-family: "another", sans-serif;
+}
+
+.sawHoffman {
+  color: rgb(173, 28, 28);
+  text-align: center;
+  font-size: 40px;
+  font-family: "another", sans-serif;
+}
+
+.sawJohn {
+  color: rgb(173, 28, 28);
+  text-align: center;
+  font-size: 40px;
+  font-family: "another", sans-serif;
+}
+
+.merchandising {
+  color: rgb(173, 28, 28);
+  text-align: center;
+  font-size: 40px;
+  font-family: "another", sans-serif;
+}
+
+.kontakto {
+  max-width: 800px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

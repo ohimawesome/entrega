@@ -7,3 +7,7 @@ body {
     background-color: rgb(193, 156, 156);
     font-family: 'Reboto', sans-serif;
 }
+
+body > header > a {
+    cursor: auto;
+}
